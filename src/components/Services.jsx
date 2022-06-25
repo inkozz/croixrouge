@@ -25,7 +25,7 @@ const Services = () => (
         </svg>
       </div>
     </a>
-    <a href="/" className="flex justify-center">
+    <a href="/boite" className="flex justify-center">
       <div className="mb-10 flex justify-center items-center bg-white rounded-2xl drop-shadow-2xl cursor-pointer taille">
         <svg
           xmlns="http://www.w3.org/2000/svg"

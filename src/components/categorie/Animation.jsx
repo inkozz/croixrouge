@@ -31,18 +31,23 @@ const Animation = () => {
       temps: '2 x 50 min.',
     },
   ];
-  const listAnims = anim.map((anims) => (
+
+  return (
     <div>
-      <ListAnim
-        name={anims.name}
-        description={anims.description}
-        image={anims.image}
-        age={anims.age}
-        temps={anims.temps}
-      />
+      <h1 className="text-4xl m-6 text-center">Nos animations</h1>
+      <div className="flex flex-wrap justify-center items-center">
+        {anim.map((anims) => (
+          <ListAnim
+            name={anims.name}
+            description={anims.description}
+            image={anims.image}
+            age={anims.age}
+            temps={anims.temps}
+          />
+        ))}
+      </div>
     </div>
-  ));
-  return listAnims;
+  );
 };
 
 export default Animation;

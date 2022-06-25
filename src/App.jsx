@@ -10,6 +10,7 @@ import Animation from './components/categorie/Animation';
 
 import Header from './components/Header';
 import Home from './components/Home';
+import Boite from './components/categorie/Boite';
 
 const App = () => {
   const queryClient = new QueryClient();
@@ -27,6 +28,7 @@ const App = () => {
               <Route path="/login" element={<Login />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/animation" element={<Animation />} />
+              <Route path="/boite" element={<Boite />} />
             </Routes>
           </main>
           <Link to="/contact">

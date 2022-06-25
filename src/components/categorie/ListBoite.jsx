@@ -1,20 +1,13 @@
-const listAnim = ({ name, description, age, temps, image }) => (
-  <div className="flex justify-center items-center w-auto mt-10">
+const ListBoite = ({ name, description, age, temps }) => (
+  <div className="flex justify-center items-center w-auto mt-6">
     <div className="relative">
-      <img
-        src={image}
-        alt=""
-        className="ml-10 w-40 h-40 bg-red-600 rounded-full object-cover"
-      />
-      <div className="m-10 mt-4 test2">
-        <h3 className="font-bold">{name}</h3>{' '}
-        <div className="flex">
-          {' '}
-          <div className="flex items-center pt-2 pb-2 pr-2">
-            {' '}
+      <div className="m-10 mt-2 box-perso bg-white rounded-2xl drop-shadow-2xl">
+        <h3 className="font-bold back p-4 rounded-t-xl text-white">{name}</h3>{' '}
+        <div>
+          <div className="flex items-center p-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-10 w-10"
               viewBox="0 0 20 20"
               fill="currentColor">
               <path
@@ -23,12 +16,12 @@ const listAnim = ({ name, description, age, temps, image }) => (
                 clipRule="evenodd"
               />
             </svg>
-            <span className="text-xs pl-2">{age} </span>
+            <span className="text-sm pl-2">{age} </span>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center pl-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
+              className="h-10 w-10"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -39,17 +32,17 @@ const listAnim = ({ name, description, age, temps, image }) => (
                 d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
               />
             </svg>
-            <span className="text-xs pl-2">{temps} </span>
+            <span className="text-sm pl-2">{temps} </span>
           </div>
         </div>
-        <p className="text-sm">{description}</p>
+        <p className="text-sm pl-4 pr-4">{description}</p>
         <button
           type="button"
-          className="back rounded-md p-2 text-white mt-2 absolute bottom-0">
-          Acheter
+          className="back rounded-md p-2 text-white mt-2 absolute bottom-4 right-4 ">
+          Télécharger
         </button>
       </div>
     </div>
   </div>
 );
-export default listAnim;
+export default ListBoite;
