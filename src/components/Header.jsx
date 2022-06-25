@@ -2,7 +2,9 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => (
   <header className="shadow-md pl-6 pr-6 pb-4 pt-4 bg-white flex w-full justify-between items-center border-b-8  border-red-600">
-    <img src="/img/logo.jpg" alt="" className="h-14" />
+    <a href="/">
+      <img src="/img/logo.jpg" alt="" className="h-14" />
+    </a>
     <nav>
       <ul className="flex">
         <li>
@@ -84,7 +86,9 @@ const Header = () => (
           </NavLink>
         </li>
         <li>
-          <NavLink to="/login" className="back2 text-white linkItem2">
+          <NavLink
+            to="/login"
+            className="back2 text-white linkItem2 hover:text-red-600  hover:border-red-600">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6 mr-4"
