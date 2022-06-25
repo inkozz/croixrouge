@@ -6,6 +6,7 @@ import Services from './components/Services';
 import AboutUs from './components/AboutUs';
 import Login from './components/Login';
 import Contact from './components/Contact';
+import Animation from './components/categorie/Animation';
 
 import Header from './components/Header';
 import Home from './components/Home';
@@ -25,12 +26,13 @@ const App = () => {
               <Route path="/aboutus" element={<AboutUs />} />
               <Route path="/login" element={<Login />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/animation" element={<Animation />} />
             </Routes>
           </main>
           <Link to="/contact">
             <button
               type="button"
-              className="animate-bounce p-4 fixed bottom-0 right-0 hover:text-red-600 hover:border-red-600 m-6 rounded-xl flex justify-center items-center back2 text-white">
+              className="p-4 fixed bottom-0 right-0 hover:text-red-600 hover:border-red-600 m-6 rounded-xl flex justify-center items-center back2 text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 mr-4"

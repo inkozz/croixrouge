@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => (
   <header className="shadow-md pl-6 pr-6 pb-4 pt-4 bg-white flex w-screen justify-between items-center border-b-8  border-red-600">
-    <img src="/img/logo.jpg" alt="Communisme Guerre Terrorisme" className="h-14" />
+    <img src="/img/logo.jpg" alt="" className="h-14" />
     <nav>
       <ul className="flex">
         <li>

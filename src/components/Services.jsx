@@ -1,7 +1,7 @@
 const Services = () => (
-  <div className="w-screen h-screen">
+  <div>
     <h1 className="text-center text-4xl m-6 ">Que désirez-vous ?</h1>
-    <a href="/" className="flex justify-center">
+    <a href="/animation" className="flex justify-center">
       <div className="mb-10 flex justify-center items-center bg-white rounded-2xl drop-shadow-2xl cursor-pointer taille">
         <h2 className="text-center text-3xl pr-10 pl-10 back h-full flex items-center text-white rounded-l-xl">
           Animations
