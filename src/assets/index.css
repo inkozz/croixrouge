@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply bg-gray-50;
+}
+.linkItem {
+  @apply ml-2 p-4 flex font-semibold items-center duration-200 cursor-pointer rounded-xl;
+}
+.linkItem:hover {
+  background: #ed213a;
+  background: -webkit-linear-gradient(to right, #93291e, #ed213a);
+  background: linear-gradient(to right, #93291e, #ed213a);
+  color: white;
+}
+.linkItem2 {
+  @apply p-4 flex font-semibold items-center  cursor-pointer rounded-xl ml-2;
+}
+
+.taillered {
+  width: 500px;
+}
+.taillehome {
+  width: 350px;
+}
+.back {
+  background: #ed213a;
+  background: -webkit-linear-gradient(to right, #93291e, #ed213a);
+  background: linear-gradient(to right, #93291e, #ed213a);
+}
+.back2 {
+  background: #ed213a;
+  background: -webkit-linear-gradient(to right, #93291e, #ed213a);
+  background: linear-gradient(to right, #93291e, #ed213a);
+}
+
+.back2:hover {
+  background: white;
+}
+
+.h-perso {
+  height: 88vh;
+}
+#googleMap {
+  width: 100vw;
+  height: 90vh;
+}
+.inputStyle {
+  width: 20vw;
+}
+.taille {
+  width: 65vw;
+}
