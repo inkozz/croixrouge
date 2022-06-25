@@ -1,7 +1,7 @@
 const Services = () => (
   <div>
-    <h1 className="text-center text-4xl m-6 ">Que désirez-vous ?</h1>
-    <a href="/animation" className="flex justify-center">
+    <h1 className="text-center text-4xl m-6">Que désirez-vous ?</h1>
+    <a href="/animation" className="flex justify-center animecadrehome ">
       <div className="mb-10 flex justify-center items-center bg-white rounded-2xl drop-shadow-2xl cursor-pointer taille">
         <h2 className="text-center text-3xl pr-10 pl-10 back h-full flex items-center text-white rounded-l-xl">
           Animations
@@ -25,7 +25,7 @@ const Services = () => (
         </svg>
       </div>
     </a>
-    <a href="/boite" className="flex justify-center">
+    <a href="/boite" className="flex justify-center animecadrehome ">
       <div className="mb-10 flex justify-center items-center bg-white rounded-2xl drop-shadow-2xl cursor-pointer taille">
         <svg
           xmlns="http://www.w3.org/2000/svg"

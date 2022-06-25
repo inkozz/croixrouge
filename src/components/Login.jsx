@@ -53,7 +53,7 @@ const Login = () => {
   };
 
   return (
-    <div className="w-full hperso flex justify-center items-center">
+    <div className="w-full hperso flex justify-center items-center animecadrehome">
       <div className="flex justify-center items-center back rounded-3xl mt-10 relative p-16">
         <div>
           <svg

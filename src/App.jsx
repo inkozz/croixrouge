@@ -36,7 +36,7 @@ const App = () => {
           <Link to="/contact">
             <button
               type="button"
-              className="p-4 fixed bottom-0 right-0 hover:text-red-600 hover:border-red-600 m-6 rounded-xl flex justify-center items-center back2 text-white">
+              className="p-4 fixed bottom-0 right-0 hover:text-red-600 hover:border-red-600 m-6 rounded-xl flex justify-center items-center back2 text-white ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 mr-4"

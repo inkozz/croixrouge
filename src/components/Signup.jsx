@@ -54,7 +54,7 @@ const Signup = () => {
   };
 
   return (
-    <div className="w-full hperso flex justify-center items-center">
+    <div className="w-full hperso flex justify-center items-center animeservice">
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"

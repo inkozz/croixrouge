@@ -1,5 +1,5 @@
 const PostActu = ({ name, description, date, image }) => (
-  <div className="p-10 flex">
+  <div className="p-10 flex animeservice">
     <div className="text-left relative taillered pt-6 bg-white rounded-2xl drop-shadow-2xl">
       <div className=" flex pb-4 justify-center items-center">
         <img src={image} alt="" className="h-44 w-44 rounded-full p-4" />

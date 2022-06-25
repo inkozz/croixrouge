@@ -1,5 +1,5 @@
 const CadreHome = () => (
-  <div className="p-10 flex">
+  <div className="p-10 flex animecadrehome">
     <div className="text-left relative taillehome pt-6  bg-white rounded-2xl drop-shadow-2xl">
       <div className=" flex pb-4 justify-center items-center">
         <img
