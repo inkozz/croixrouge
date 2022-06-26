@@ -92,12 +92,11 @@ const Login = () => {
               className="block m-2 rounded-lg w-full p-2 mb-10 bg-transparent placeholder-white text-white border-2"
             />
           </div>
-          <button
-            type="submit"
-            onClick={login}
-            className="p-2 bg-white m-2 rounded-lg text-red-600 w-full">
+          <a
+            href="/profil"
+            className="p-2 bg-white m-2 rounded-lg text-red-600 w-full block">
             Se connecter
-          </button>
+          </a>
           <a href="/enregistrer" className="text-white">
             Créer un compte
           </a>

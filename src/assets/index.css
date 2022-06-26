@@ -63,7 +63,7 @@ body {
   height: 80vh;
 }
 .animecadrehome {
-  animation: reveal 2s;
+  animation: reveal 1s;
 }
 @keyframes reveal {
   0% {
@@ -85,5 +85,47 @@ body {
 
   100% {
     opacity: 1;
+  }
+}
+
+.userProfilDiv {
+  width: 1000px;
+  margin-bottom: 50px;
+}
+.navli li {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.persoh {
+  max-width: 1000px;
+}
+
+.zoom {
+  transition: transform 0.2s;
+}
+.zoom2 {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+.zoom2:hover {
+  transform: scale(1.1);
+}
+
+.petitsaut {
+  animation: bounce 2s normal forwards ease-in-out;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }

@@ -88,7 +88,7 @@ const Header = () => (
         <li>
           <NavLink
             to="/login"
-            className="back2 text-white linkItem2 hover:text-red-600  hover:border-red-600">
+            className="back2 text-white linkItem2 hover:text-red-600  border hover:border-red-600">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6 mr-4"

@@ -12,6 +12,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Boite from './components/categorie/Boite';
 import Signup from './components/Signup';
+import UserProfil from './components/UserProfil';
 
 const App = () => {
   const queryClient = new QueryClient();
@@ -31,12 +32,13 @@ const App = () => {
               <Route path="/animation" element={<Animation />} />
               <Route path="/boite" element={<Boite />} />
               <Route path="/enregistrer" element={<Signup />} />
+              <Route path="/profil" element={<UserProfil />} />
             </Routes>
           </main>
           <Link to="/contact">
             <button
               type="button"
-              className="p-4 fixed bottom-0 right-0 hover:text-red-600 hover:border-red-600 m-6 rounded-xl flex justify-center items-center back2 text-white ">
+              className="p-4 fixed bottom-0 right-0 hover:text-red-600 border-2 hover:border-red-600 m-6 rounded-xl flex justify-center items-center back2 text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 mr-4"

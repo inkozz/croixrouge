@@ -142,7 +142,7 @@ const Signup = () => {
             onClick={register}
             type="submit"
             className="p-2 bg-white m-2 rounded-lg text-red-600 w-full">
-            S'enregistrer
+            <a href="/profil"> S'enregistrer</a>
           </button>
         </form>
 

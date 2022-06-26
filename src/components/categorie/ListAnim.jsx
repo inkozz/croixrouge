@@ -4,7 +4,7 @@ const listAnim = ({ name, description, age, temps, image }) => (
       <img
         src={image}
         alt=""
-        className="ml-10 w-40 h-40 bg-red-600 rounded-full object-cover"
+        className="ml-10 w-40 h-40 bg-red-600 rounded-full object-cover border-4 border-red-600"
       />
       <div className="m-10 mt-4 test2">
         <h3 className="font-bold">{name}</h3>{' '}
